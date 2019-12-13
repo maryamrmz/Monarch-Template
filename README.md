@@ -1,1 +1,1 @@
-# Convert photos to code
+# Convert photo to code

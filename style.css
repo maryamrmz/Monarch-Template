@@ -205,7 +205,6 @@ li {
     order: 2;
     flex: 87;
     height: 100%;
-    width: 80%;
     min-width: 300px;
     padding: 1% 2% 1% 4%;
     display: flex;
@@ -850,7 +849,7 @@ textarea {
     background: #2ecc71;
     border-radius: 2px;
     font-size: 80%;
-    padding: 4px 5px;
+    padding: 4px 10px;
     line-height: 23px;
 }
 
@@ -862,7 +861,7 @@ textarea {
     background: #3498db;
     border-radius: 2px;
     font-size: 80%;
-    padding: 4px 7px;
+    padding: 4px 14px;
     line-height: 23px;
 }
 
@@ -917,7 +916,6 @@ textarea {
 .left-column {
     order: 1;
     flex: 13;
-    width: 20%;
     padding: 15px;
 }
 

@@ -778,7 +778,7 @@ textarea {
 }
 
 .checkbox {
-    height: 350px;
+    height: 260px;
 }
 
 .checkbox .content {
@@ -1102,7 +1102,7 @@ textarea {
 
     .right-col {
         width: 100%;
-        margin-top: 95px;
+        margin-top: 45px;
         padding-left: 0;
     }
 

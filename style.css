@@ -33,6 +33,7 @@ li {
     height: 78px;
     height: 10%;
     width: 100%;
+    min-width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,7 +46,6 @@ li {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    min-width: 170px;
 }
 
 .logo {
@@ -206,6 +206,7 @@ li {
     flex: 87;
     height: 100%;
     width: 80%;
+    min-width: 300px;
     padding: 1% 2% 1% 4%;
     display: flex;
     flex-direction: column;
@@ -243,6 +244,7 @@ li {
 
 .summary {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -610,7 +612,7 @@ a.green-box {
 .headphone {
     position: absolute;
     left: -40px;
-    top: 55px;
+    top: 40%;
     width: 28px;
     height: 28px;
     display: flex;
@@ -1040,10 +1042,6 @@ textarea {
         height: 955px;
     }
 
-    .summary {
-        flex-wrap: wrap;
-    }
-
     .summary .boxes {
         width: 100%;
         margin-bottom: 3%;
@@ -1075,7 +1073,7 @@ textarea {
     .cloud,
     .chat-sidebar,
     .fullscreen {
-        display: none;
+        display: none !important;
     }
 
     .activity {
@@ -1109,13 +1107,7 @@ textarea {
         padding-left: 0;
     }
 
-    .two-box a {
-        display: flex;
-        justify-content: center;
-    }
-
-    .right-col .two-box img {
-        width: 191px;
-        height: 82px;
+    .two-box {
+        display: none;
     }
 }

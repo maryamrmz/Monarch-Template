@@ -741,6 +741,7 @@ i {
 textarea {
     width: 100%;
     font-size: 18px;
+    font-family: inherit;
     padding: 15px;
     vertical-align: top;
     border-top-left-radius: 3px;

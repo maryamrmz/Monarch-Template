@@ -1037,7 +1037,7 @@ textarea {
     }
 
     .charts {
-        height: 955px;
+        height: 980px;
     }
 
     .summary .boxes {
@@ -1085,6 +1085,11 @@ textarea {
 
     .chart-activity {
         width: 100%;
+    }
+
+    .users-activity {
+        min-height: 540px;
+        height: 544px;
     }
 
     .circles {

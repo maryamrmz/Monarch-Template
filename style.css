@@ -603,7 +603,7 @@ a.green-box {
 }
 
 .users-activity {
-    min-height: 568px;
+    min-height: 546px;
 }
 
 .toggle-on,
@@ -780,13 +780,14 @@ textarea {
 }
 
 .checkbox {
-    height: 260px;
+    height: 320px;
 }
 
 .checkbox .content {
     border: 1px solid #dfe8f1;
     border-radius: 3px;
     padding: 20px;
+    height: 100%;
 }
 
 .checkbox li.red,
@@ -1087,9 +1088,15 @@ textarea {
         width: 100%;
     }
 
-    .users-activity {
-        min-height: 540px;
-        height: 544px;
+    .textarea {
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textarea .content {
+        width: 100%;
     }
 
     .circles {

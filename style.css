@@ -1102,6 +1102,10 @@ textarea {
         width: 100%;
     }
 
+    .checkbox {
+        height: 240px;
+    }
+
     .toggle {
         width: 100%;
     }
